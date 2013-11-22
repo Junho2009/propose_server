@@ -1,0 +1,455 @@
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:01:05 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializing internal tables....
+The simul_efun file adm/obj/simul_efun.c was not loaded.
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) shutdown at Sat Nov 23 04:01:06 2013
+
+
+
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:02:18 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializing internal tables....
+The simul_efun file adm/obj/simul_efun.c was not loaded.
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) shutdown at Sat Nov 23 04:02:19 2013
+
+
+
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:03:19 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+single/simul_efun.c line 0: Cannot #include globals.h
+single/simul_efun.c line 1: parse error
+No error handler for error: *Error in loading object '/single/simul_efun'
+program: (none), object: (none), file: (none)
+The simul_efun (/single/simul_efun) and master (/single/master) objects must be loadable.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) shutdown at Sat Nov 23 04:03:20 2013
+
+
+
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:04:10 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializing internal tables....
+The master file /single/master was not loaded.
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) shutdown at Sat Nov 23 04:04:11 2013
+
+
+
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:04:45 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+No function get_root_uid() in master object; possibly the mudlib doesn't want PACKAGE_UIDS to be defined.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) shutdown at Sat Nov 23 04:04:46 2013
+
+
+
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:08:52 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Connection from 127.0.0.1 aborted.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:16:29 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+include/globals.h line 6: parse error
+No error handler for error: *Error in loading object '/single/simul_efun'
+program: (none), object: (none), file: (none)
+The simul_efun (/single/simul_efun) and master (/single/master) objects must be loadable.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) shutdown at Sat Nov 23 04:16:30 2013
+
+
+
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:16:47 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+No error handler for error: *master object: No function creator_file() defined!
+program: /single/master.c, object: /single/master, file: /single/master.c:14
+'        connect' in '     single/master.c' ('       single/master') /single/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:19:55 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:21:03 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:36:39 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 04:49:00 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:04:45 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/login.c line 4: Line too long.
+object/login.c line 4: parse error
+No error handler for error: *Error in loading object '/object/login'
+program: /single/master.c, object: /single/master, file: /single/master.c:14
+'        connect' in '     single/master.c' ('       single/master') /single/master.c:14
+arguments were (5555)
+locals were: 0
+object/login.c line 4: Line too long.
+object/login.c line 4: parse error
+No error handler for error: *Error in loading object '/object/login'
+program: /single/master.c, object: /single/master, file: /single/master.c:14
+'        connect' in '     single/master.c' ('       single/master') /single/master.c:14
+arguments were (5555)
+locals were: 0
+object/login.c line 4: Line too long.
+object/login.c line 4: parse error
+No error handler for error: *Error in loading object '/object/login'
+program: /single/master.c, object: /single/master, file: /single/master.c:14
+'        connect' in '     single/master.c' ('       single/master') /single/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:05:41 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/login.c line 4: Line too long.
+object/login.c line 4: parse error
+No error handler for error: *Error in loading object '/object/login'
+program: /single/master.c, object: /single/master, file: /single/master.c:14
+'        connect' in '     single/master.c' ('       single/master') /single/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:05:59 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/login.c line 4: Line too long.
+object/login.c line 4: parse error
+No error handler for error: *Error in loading object '/object/login'
+program: /single/master.c, object: /single/master, file: /single/master.c:14
+'        connect' in '     single/master.c' ('       single/master') /single/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:06:14 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/login.c line 4: String too long
+object/login.c line 4: parse error
+No error handler for error: *Error in loading object '/object/login'
+program: /single/master.c, object: /single/master, file: /single/master.c:14
+'        connect' in '     single/master.c' ('       single/master') /single/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:06:36 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:06:52 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:07:43 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:07:55 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/login.c line 4: String too long
+object/login.c line 4: parse error
+No error handler for error: *Error in loading object '/object/login'
+program: /single/master.c, object: /single/master, file: /single/master.c:14
+'        connect' in '     single/master.c' ('       single/master') /single/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:08:07 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:08:23 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:28:18 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/login.c line 5: Reserved type name unexpected.
+object/login.c line 5: parse error
+object/login.c line 5: Illegal LHS
+object/login.c line 6: Reserved type name unexpected.
+object/login.c line 6: parse error
+object/login.c line 6: Undefined variable 'str'
+No error handler for error: *Error in loading object '/object/login'
+program: /single/master.c, object: /single/master, file: /single/master.c:14
+'        connect' in '     single/master.c' ('       single/master') /single/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:28:37 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/login.c line 5: Reserved type name unexpected.
+object/login.c line 5: parse error
+object/login.c line 5: Illegal LHS
+object/login.c line 6: Reserved type name unexpected.
+object/login.c line 6: parse error
+object/login.c line 6: Undefined variable 'str'
+No error handler for error: *Error in loading object '/object/login'
+program: /single/master.c, object: /single/master, file: /single/master.c:14
+'        connect' in '     single/master.c' ('       single/master') /single/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:28:58 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/login.c line 5: Reserved type name unexpected.
+object/login.c line 5: parse error
+object/login.c line 5: Illegal LHS
+object/login.c line 7: Undefined variable 'str'
+No error handler for error: *Error in loading object '/object/login'
+program: /single/master.c, object: /single/master, file: /single/master.c:14
+'        connect' in '     single/master.c' ('       single/master') /single/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Nov 23 05:29:22 2013
+
+using config file: D:\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
