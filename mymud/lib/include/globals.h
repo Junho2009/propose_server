@@ -4,3 +4,5 @@
 
 #define LOGIN_OB		"/object/login"
 
+#define PROTO_DELIMITER "|" 
+
