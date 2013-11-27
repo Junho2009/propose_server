@@ -10,9 +10,9 @@ string get_bb_uid()
 
 object connect(int port)
 {
-    object login_ob;
-    login_ob = new(LOGIN_OB);
-    return login_ob;
+    object user;
+    user = new(USER_OB);
+    return user;
 }
 
 string creator_file(string filename)
@@ -20,3 +20,8 @@ string creator_file(string filename)
     return ROOT_UID;
 }
 
+int valid_write(string file, mixed user, string func)
+{
+	write("============\n");
+	return 1;
+}

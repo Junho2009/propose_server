@@ -1090,3 +1090,594 @@ Initializations complete.
 
 Accepting connections on port 5555.
 Accepting connections on port 9999.
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 10:47:10 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 10:50:43 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 13:03:46 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/login.c line 6: Reserved type name unexpected.
+object/login.c line 6: parse error
+object/login.c line 6: Illegal LHS
+No error handler for error: *Error in loading object '/object/login'
+program: /singleton/master.c, object: /singleton/master, file: /singleton/master.c:14
+'        connect' in '  singleton/master.c' ('    singleton/master') /singleton/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 13:04:39 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 13:10:26 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/login.c line 8: Left argument of -> is not a class
+object/login.c line 8: Illegal lvalue
+No error handler for error: *Error in loading object '/object/login'
+program: /singleton/master.c, object: /singleton/master, file: /singleton/master.c:14
+'        connect' in '  singleton/master.c' ('    singleton/master') /singleton/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 13:11:58 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/test.c line 10: Undefined function call_object
+No error handler for error: *Error in loading object '/object/test'
+program: /object/login.c, object: /object/login#0, file: /object/login.c:7
+'          logon' in '      object/login.c' ('      object/login#0') /object/login.c:7
+arguments were ()
+locals were: 0,"1000|abcdefg|12345|end"
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 13:12:33 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+No error handler for error: *Bad argument 1 to tell_object()
+Expected: object Got: 0.
+program: /object/test.c, object: /object/test#1, file: /object/test.c:10
+'          logon' in '      object/login.c' ('      object/login#0') /object/login.c:8
+arguments were ()
+locals were: object/test#1,"1000|abcdefg|12345|end"
+'           send' in '       object/test.c' ('       object/test#1') /object/test.c:10
+arguments were ()
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 14:45:12 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+get_user_data: read on fd 636
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 17:23:46 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 17:26:45 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 17:51:06 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 17:51:45 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+No error handler for error: *call_other() couldn't find object
+program: /singleton/cmdd.c, object: /singleton/cmdd, file: /singleton/cmdd.c:3
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:18
+arguments were (0)
+locals were: "add"
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:3
+arguments were (object/user#0,"add",0)
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 17:52:18 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+get_user_data: read on fd 640
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+No error handler for error: *call_other() couldn't find object
+program: /singleton/cmdd.c, object: /singleton/cmdd, file: /singleton/cmdd.c:3
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:18
+arguments were ("[A")
+locals were: ""
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:3
+arguments were (object/user#0,"","[A")
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:23:41 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+feature/dbase.c line 2: parse error
+No error handler for error: *Error in loading object '/feature/dbase'
+program: /singleton/master.c, object: /singleton/master, file: /singleton/master.c:14
+'        connect' in '  singleton/master.c' ('    singleton/master') /singleton/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:27:20 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+feature/dbase.c line 2: parse error
+No error handler for error: *Error in loading object '/feature/dbase'
+program: /singleton/master.c, object: /singleton/master, file: /singleton/master.c:14
+'        connect' in '  singleton/master.c' ('    singleton/master') /singleton/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:29:51 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+object/user.c line 13: Undefined variable 'this_object'
+object/user.c line 25: Undefined variable 'this_object'
+No error handler for error: *Error in loading object '/object/user'
+program: /singleton/master.c, object: /singleton/master, file: /singleton/master.c:14
+'        connect' in '  singleton/master.c' ('    singleton/master') /singleton/master.c:14
+arguments were (5555)
+locals were: 0
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:30:23 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:35:06 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:37:12 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+No error handler for error: *call_other() couldn't find object
+program: /singleton/cmdd.c, object: /singleton/cmdd, file: /singleton/cmdd.c:3
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:20
+arguments were (0)
+locals were: "aaa"
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:3
+arguments were (object/user#0,"aaa",0)
+No error handler for error: *call_other() couldn't find object
+program: /singleton/cmdd.c, object: /singleton/cmdd, file: /singleton/cmdd.c:3
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:20
+arguments were (0)
+locals were: "a"
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:3
+arguments were (object/user#0,"a",0)
+No error handler for error: *call_other() couldn't find object
+program: /singleton/cmdd.c, object: /singleton/cmdd, file: /singleton/cmdd.c:3
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:20
+arguments were (0)
+locals were: "dfasf"
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:3
+arguments were (object/user#0,"dfasf",0)
+No error handler for error: *call_other() couldn't find object
+program: /singleton/cmdd.c, object: /singleton/cmdd, file: /singleton/cmdd.c:3
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:20
+arguments were (0)
+locals were: "dfasdf"
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:3
+arguments were (object/user#0,"dfasdf",0)
+No error handler for error: *call_other() couldn't find object
+program: /singleton/cmdd.c, object: /singleton/cmdd, file: /singleton/cmdd.c:3
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:20
+arguments were (0)
+locals were: "aaaaa"
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:3
+arguments were (object/user#0,"aaaaa",0)
+No error handler for error: *call_other() couldn't find object
+program: /singleton/cmdd.c, object: /singleton/cmdd, file: /singleton/cmdd.c:3
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:20
+arguments were (0)
+locals were: "ad"
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:3
+arguments were (object/user#0,"ad",0)
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:38:01 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:39:05 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:39:20 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:43:39 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:44:27 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:44:46 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:56:09 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:57:10 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 20:59:22 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 21:02:04 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 21:05:10 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+No error handler for error: *Bad argument 2 to tell_object()
+Expected: string Got: 0.
+program: /singleton/logind.c, object: /singleton/logind, file: /singleton/logind.c:12
+'         get_id' in '  singleton/logind.c' ('    singleton/logind') /singleton/logind.c:12
+arguments were ("junho",object/user#0)
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 21:05:43 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 21:17:08 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 21:17:33 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+singleton/logind.c line 12: Bad argument 1 to efun save_object()
+No error handler for error: *Error in loading object '/singleton/logind'
+program: /object/user.c, object: /object/user#0, file: /object/user.c:16
+'          logon' in '       object/user.c' ('       object/user#0') /object/user.c:16
+arguments were ()
+No error handler for error: *call_other() couldn't find object
+program: /singleton/cmdd.c, object: /singleton/cmdd, file: /singleton/cmdd.c:3
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:22
+arguments were (0)
+locals were: "junho"
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:3
+arguments were (object/user#0,"junho",0)
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 21:18:05 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Wed Nov 27 21:26:10 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 5555.
+Accepting connections on port 9999.
+Initializing internal tables....
