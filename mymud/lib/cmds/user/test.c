@@ -1,5 +1,5 @@
 int main(object obj, string arg)
 {
-	tell_object(obj, "已收到"+arg+"\n");
+	LOGIN_D->tell_users(sprintf("%s: %s\n", obj->get_name(), arg));
 	return 1;
 }

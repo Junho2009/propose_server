@@ -1,7 +1,5 @@
 inherit F_DBASE;
 
-string name = "junho";
-int id = 177;
 
 void create()
 {
@@ -28,7 +26,18 @@ void login_timeout()
 		destruct(this_object());
 }
 
+string get_name()
+{
+	return query("name");
+}
+
 string query_save_file()
 {
-	return name;
+	return USER_SAVE_PATH + query("name");
 }
+
+int save()
+{
+	return save_object(query_save_file());
+}
+

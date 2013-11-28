@@ -5,11 +5,13 @@
 #define nosave static
 #define protected static
 
+
 #define PROTO_DELIMITER "|" // 协议中字段之间的分隔符
 
 
 // paths
 #define CMD_USER_PATH	"/cmds/user/"
+#define USER_SAVE_PATH	"/data/user/"
 
 
 //User IDs
@@ -24,7 +26,6 @@
 #define F_DBASE			"/feature/dbase"
 
 // objects
-#define LOGIN_OB		"/object/login"
 #define USER_OB			"/object/user"
 
 

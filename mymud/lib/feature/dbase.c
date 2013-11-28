@@ -1,5 +1,5 @@
 mapping dbase = ([]);
-static mapping tmp_dbase = ([]);
+nosave mapping tmp_dbase = ([]); // 临时数据
 
 
 mixed set(mixed prop, mixed value)
