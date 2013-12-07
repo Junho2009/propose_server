@@ -10,8 +10,9 @@
 
 
 // paths
-#define CMD_USER_PATH	"/cmds/user/"
-#define USER_SAVE_PATH	"/data/user/"
+#define CMD_USER_PATH       "/cmds/user/"
+#define COMMON_SAVE_PATH    "/data/"
+#define USER_SAVE_PATH      "/data/user/"
 
 
 //User IDs
@@ -21,12 +22,15 @@
 // singletons
 #define CMD_D			"/singleton/cmdd"
 #define LOGIN_D			"/singleton/logind"
+#define BLESS_D         "/singleton/blessd"
 
 // features
 #define F_DBASE			"/feature/dbase"
+#define F_SAVE          "/feature/save"
 
 // objects
 #define USER_OB			"/object/user"
+#define BLESS_OB        "/object/bless"
 
 
 #endif

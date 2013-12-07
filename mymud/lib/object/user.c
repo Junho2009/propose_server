@@ -9,8 +9,8 @@ void create()
 
 object logon()
 {
-	call_out("login_timeout", 60);
-	this_object()->set_temp("login_flag", 0);
+	//call_out("login_timeout", 60);
+	//this_object()->set_temp("login_flag", 0);
 	LOGIN_D->logon(this_object());
 }
 
@@ -24,6 +24,11 @@ void login_timeout()
 {
 	if (0 == this_object()->query_temp("login_flag"))
 		destruct(this_object());
+}
+
+void set_name(string name)
+{
+	set("name", name);
 }
 
 string get_name()

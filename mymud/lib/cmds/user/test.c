@@ -1,5 +1,8 @@
-int main(object obj, string arg)
+int main(object user, string arg)
 {
-	LOGIN_D->tell_users(sprintf("%s: %s\n", obj->get_name(), arg));
+    if (0 == user)
+        return 0;
+
+	LOGIN_D->tell_users(sprintf("%s: %s\n", user->get_name(), arg));
 	return 1;
 }
