@@ -28,7 +28,7 @@ string get_save_str()
     return sprintf("%s|%s|%d", author_name(), msg(), send_time());
 }
 
-void update(string save_str)
+void load_from_savestr(string save_str)
 {
     string author_name;
     string msg;
