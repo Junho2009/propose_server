@@ -36,6 +36,11 @@ string get_name()
 	return query("name");
 }
 
+void net_dead()
+{
+	LOGIN_D->tell_users(sprintf("%s已经下线\n", get_name()));
+}
+
 string query_save_file()
 {
 	return USER_SAVE_PATH + query("name");

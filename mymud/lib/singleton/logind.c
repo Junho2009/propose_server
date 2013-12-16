@@ -24,4 +24,6 @@ void logon(object ob)
 	users[user_name] = ob;
 
 	tell_users(user_name+"进入了系统，大家热烈欢迎！\n");
+
+	FLOWER_D->registerUser(ob);
 }

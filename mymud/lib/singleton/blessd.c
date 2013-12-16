@@ -2,6 +2,10 @@ inherit F_DBASE;
 inherit F_SAVE;
 
 
+// 协议头
+nosave int PROTO_HEAD_RECV_BLESS = 131401;
+
+
 int count = 0;
 string *blesses = ({});
 
@@ -60,7 +64,7 @@ void blesses_broadcast(object* bless_list)
 
     foreach (bless in bless_list)
     {
-        broadcast_strlist += sprintf("1314|%s|%s|%d\n", bless->author_name(), bless->msg(), bless->send_time());
+        broadcast_strlist += sprintf("%d|%s|%s|%d\n", PROTO_HEAD_RECV_BLESS, bless->author_name(), bless->msg(), bless->send_time());
     }
     LOGIN_D->tell_users(broadcast_strlist);
 }

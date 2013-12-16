@@ -23,6 +23,7 @@
 #define CMD_D			"/singleton/cmdd"
 #define LOGIN_D			"/singleton/logind"
 #define BLESS_D         "/singleton/blessd"
+#define FLOWER_D        "/singleton/flowerd"
 
 // features
 #define F_DBASE			"/feature/dbase"
