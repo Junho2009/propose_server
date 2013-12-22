@@ -27,6 +27,7 @@ void create()
 
 void registerUser(object user)
 {
+    return; //testing
     ++cur_user_num;
     if (1 == cur_user_num)
     {

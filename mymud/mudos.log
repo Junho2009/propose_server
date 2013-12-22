@@ -6248,3 +6248,452 @@ Accepting connections on port 8360.
 Accepting connections on port 8635.
 Initializing internal tables....
 ]user2宸茬粡涓嬬嚎
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Fri Dec 20 21:07:59 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+get_user_data: read on fd 620
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user1宸茬粡涓嬬嚎
+]user2宸茬粡涓嬬嚎
+]user3宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user4宸茬粡涓嬬嚎
+]user5宸茬粡涓嬬嚎
+]user6宸茬粡涓嬬嚎
+get_user_data: read on fd 620
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user8宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user7宸茬粡涓嬬嚎
+]user9宸茬粡涓嬬嚎
+]user10宸茬粡涓嬬嚎
+]user11宸茬粡涓嬬嚎
+]user12宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user13宸茬粡涓嬬嚎
+]user14宸茬粡涓嬬嚎
+]user15宸茬粡涓嬬嚎
+]user16宸茬粡涓嬬嚎
+get_user_data: read on fd 620
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user17宸茬粡涓嬬嚎
+get_user_data: read on fd 620
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user18宸茬粡涓嬬嚎
+]user19宸茬粡涓嬬嚎
+]user20宸茬粡涓嬬嚎
+]user21宸茬粡涓嬬嚎
+]user23宸茬粡涓嬬嚎
+get_user_data: read on fd 620
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user24宸茬粡涓嬬嚎
+]user25宸茬粡涓嬬嚎
+]user26宸茬粡涓嬬嚎
+get_user_data: read on fd 220
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+Initializing internal tables....
+]user27宸茬粡涓嬬嚎
+]user28宸茬粡涓嬬嚎
+]user29宸茬粡涓嬬嚎
+]user30宸茬粡涓嬬嚎
+]user31宸茬粡涓嬬嚎
+]user32宸茬粡涓嬬嚎
+]user33宸茬粡涓嬬嚎
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Dec 21 10:20:11 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user1宸茬粡涓嬬嚎
+]user2宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user3宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user4宸茬粡涓嬬嚎
+]user5宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user6宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user7宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user8宸茬粡涓嬬嚎
+]user9宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user10宸茬粡涓嬬嚎
+]user11宸茬粡涓嬬嚎
+]user12宸茬粡涓嬬嚎
+]user13宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user14宸茬粡涓嬬嚎
+]user15宸茬粡涓嬬嚎
+]user16宸茬粡涓嬬嚎
+]user17宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user18宸茬粡涓嬬嚎
+]user19宸茬粡涓嬬嚎
+]user20宸茬粡涓嬬嚎
+]user21宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user22宸茬粡涓嬬嚎
+]user23宸茬粡涓嬬嚎
+]user24宸茬粡涓嬬嚎
+]user25宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user26宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user27宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sat Dec 21 21:01:46 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+]user1宸茬粡涓嬬嚎
+get_user_data: read on fd 628
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user2宸茬粡涓嬬嚎
+get_user_data: read on fd 628
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user3宸茬粡涓嬬嚎
+]user4宸茬粡涓嬬嚎
+get_user_data: read on fd 628
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user5宸茬粡涓嬬嚎
+get_user_data: read on fd 628
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user6宸茬粡涓嬬嚎
+]user7宸茬粡涓嬬嚎
+]user8宸茬粡涓嬬嚎
+]user9宸茬粡涓嬬嚎
+]user10宸茬粡涓嬬嚎
+]user11宸茬粡涓嬬嚎
+]user12宸茬粡涓嬬嚎
+]user13宸茬粡涓嬬嚎
+]user14宸茬粡涓嬬嚎
+]user15宸茬粡涓嬬嚎
+]user16宸茬粡涓嬬嚎
+]user17宸茬粡涓嬬嚎
+]user18宸茬粡涓嬬嚎
+]user19宸茬粡涓嬬嚎
+]user20宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user21宸茬粡涓嬬嚎
+]user22宸茬粡涓嬬嚎
+]user23宸茬粡涓嬬嚎
+]user24宸茬粡涓嬬嚎
+]user25宸茬粡涓嬬嚎
+]user26宸茬粡涓嬬嚎
+]user27宸茬粡涓嬬嚎
+]user28宸茬粡涓嬬嚎
+get_user_data: read on fd 628
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user29宸茬粡涓嬬嚎
+]user30宸茬粡涓嬬嚎
+]user31宸茬粡涓嬬嚎
+get_user_data: read on fd 628
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user32宸茬粡涓嬬嚎
+get_user_data: read on fd 628
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Sun Dec 22 18:19:20 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+get_user_data: read on fd 620
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user1宸茬粡涓嬬嚎
+get_user_data: read on fd 628
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user2宸茬粡涓嬬嚎
+]user3宸茬粡涓嬬嚎
+get_user_data: read on fd 628
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user4宸茬粡涓嬬嚎
+]user5宸茬粡涓嬬嚎
+]user7宸茬粡涓嬬嚎
+]user6宸茬粡涓嬬嚎
+get_user_data: read on fd 628
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user8宸茬粡涓嬬嚎
+]user9宸茬粡涓嬬嚎
+]user10宸茬粡涓嬬嚎
+]user11宸茬粡涓嬬嚎
+]user12宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user13宸茬粡涓嬬嚎
+]user14宸茬粡涓嬬嚎
+]user15宸茬粡涓嬬嚎
+]user16宸茬粡涓嬬嚎
+]user17宸茬粡涓嬬嚎
+]user18宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+]user19宸茬粡涓嬬嚎
+get_user_data: read on fd 624
+System Error: get_user_data: read: 当文件已存在时，无法创建该文件。
+
+Initializing internal tables....
+]user20宸茬粡涓嬬嚎
+]user21宸茬粡涓嬬嚎
+]user22宸茬粡涓嬬嚎
+]user23宸茬粡涓嬬嚎
+]user24宸茬粡涓嬬嚎
+]user25宸茬粡涓嬬嚎
+]user26宸茬粡涓嬬嚎
+]user27宸茬粡涓嬬嚎
+]user28宸茬粡涓嬬嚎
+]user29宸茬粡涓嬬嚎
+]user30宸茬粡涓嬬嚎
+]user31宸茬粡涓嬬嚎
+]user32宸茬粡涓嬬嚎
+]user33宸茬粡涓嬬嚎
+]user34宸茬粡涓嬬嚎
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Mon Dec 23 00:00:03 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+singleton/blessd.c line 87: == always false because of incompatible types ( int vs string ).
+singleton/blessd.c line 89: Undefined variable 'PROTO_HEAD_BLESSNUM_INFO'
+No error handler for error: *Error in loading object '/singleton/blessd'
+program: /cmds/user/bless.c, object: /cmds/user/bless, file: /cmds/user/bless.c:5
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:20
+arguments were ("2")
+locals were: "bless"
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:5
+arguments were (object/user#0,"bless","2")
+locals were: cmds/user/bless
+'           main' in '   cmds/user/bless.c' ('     cmds/user/bless') /cmds/user/bless.c:5
+arguments were (object/user#0,"2")
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Mon Dec 23 00:00:45 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Mon Dec 23 00:01:02 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+singleton/blessd.c line 82: Type mismatch ( int vs string ) when initializing head
+singleton/blessd.c line 89: Undefined variable 'PROTO_HEAD_BLESSNUM_INFO'
+No error handler for error: *Error in loading object '/singleton/blessd'
+program: /cmds/user/bless.c, object: /cmds/user/bless, file: /cmds/user/bless.c:5
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:20
+arguments were ("2")
+locals were: "bless"
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:5
+arguments were (object/user#0,"bless","2")
+locals were: cmds/user/bless
+'           main' in '   cmds/user/bless.c' ('     cmds/user/bless') /cmds/user/bless.c:5
+arguments were (object/user#0,"2")
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Mon Dec 23 00:01:21 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+singleton/blessd.c line 89: Undefined variable 'PROTO_HEAD_BLESSNUM_INFO'
+No error handler for error: *Error in loading object '/singleton/blessd'
+program: /cmds/user/bless.c, object: /cmds/user/bless, file: /cmds/user/bless.c:5
+'       cmd_hook' in '       object/user.c' ('       object/user#0') /object/user.c:20
+arguments were ("2")
+locals were: "bless"
+'         do_cmd' in '    singleton/cmdd.c' ('      singleton/cmdd') /singleton/cmdd.c:5
+arguments were (object/user#0,"bless","2")
+locals were: cmds/user/bless
+'           main' in '   cmds/user/bless.c' ('     cmds/user/bless') /cmds/user/bless.c:5
+arguments were (object/user#0,"2")
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Mon Dec 23 00:01:38 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Mon Dec 23 00:01:59 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Mon Dec 23 00:02:23 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Mon Dec 23 00:03:04 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Mon Dec 23 00:03:30 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
+Initializing internal tables....
+
+<---mymud: MudOs v22pre11 (by wwj,Jan  1 1999) startup on Microsoft Windows NT at Mon Dec 23 00:04:08 2013
+
+using config file: D:\src\github\propose\propose_server\mymud\config.cfg
+Can't find "mudos", ignoring old binaries.
+Try invoking the driver using the full pathname.
+System Error: init_addr_server: connect: 由于目标计算机积极拒绝，无法连接。
+
+Initializations complete.
+
+Accepting connections on port 8360.
+Accepting connections on port 8635.
