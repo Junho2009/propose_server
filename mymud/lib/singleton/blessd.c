@@ -25,7 +25,7 @@ void create()
         count = sizeof(blesses);
     else
         count = 0;
-    total_page = ceil(count / BLESS_NUM_PER_PAGE);
+    total_page = ceil(count / BLESS_NUM_PER_PAGE)+1;
     write(sprintf("载入祝福数据，总条目：%d\n", count));
 }
 
@@ -37,7 +37,7 @@ void add_bless(object user, string content)
     string bless_save_str;
     object tmp_bless;
 
-    sscanf(content, "%s|%s", author_name, msg);
+    sscanf(content, "%s;%s", author_name, msg);
     bless = new(BLESS_OB);
     bless->init(author_name, msg, time());
 
@@ -52,7 +52,7 @@ void add_bless(object user, string content)
 
 void query_bless_info(object user)
 {
-    string info = sprintf("%d|%d\n", count, total_page);
+    string info = sprintf("%d;%d\n", count, total_page);
     tell_object(user, info);
 }
 
@@ -72,14 +72,14 @@ void send_blesses(object user, int page)
     for (i = begin_idx; i < begin_idx+BLESS_NUM_PER_PAGE && i < count; ++i)
     {
         if ("" != content)
-            content += "$";
+            content += "#";
 
         bless_save_str = blesses[i];
         bless->load_from_savestr(bless_save_str);
-        content += sprintf("%s^%s^%d", bless->author_name(), bless->msg(), bless->send_time());
+        content += sprintf("author_name:%s,msg:%s,time:%d", bless->author_name(), bless->msg(), bless->send_time());
     }
 
-    proto = sprintf("%d|%s\n", PROTO_SN_BLESS_LIST, content);
+    proto = sprintf("%d;%s\n", PROTO_SN_BLESS_LIST, content);
     tell_object(user, proto);
 }
 
@@ -90,7 +90,7 @@ void blesses_broadcast(object* bless_list)
 
     foreach (bless in bless_list)
     {
-        broadcast_strlist += sprintf("%d|%s|%s|%d\n", 1314, bless->author_name(), bless->msg(), bless->send_time());
+        broadcast_strlist += sprintf("%d;%s;%s;%d\n", 1314, bless->author_name(), bless->msg(), bless->send_time());
     }
     LOGIN_D->tell_users(broadcast_strlist);
 }
@@ -111,7 +111,7 @@ int handle_protos(object user, string proto)
     if (0 == proto)
         return handleFlag;
 
-    sscanf(proto, "%d|%s", sn, content);
+    sscanf(proto, "%d;%s", sn, content);
 
     if (PROTO_SN_ADD_BLESS == sn)
     {

@@ -38,7 +38,7 @@ void registerUser(object user)
 
 private void resetUsersNum(int call_out_flag)
 {
-    string content = sprintf("%d|%d\n", PROTO_HEAD_RESET_FLOWER, MAX_NUM_PER_USER_PER_MIN*RESET_DELAY_MIN);
+    string content = sprintf("%d;%d\n", PROTO_HEAD_RESET_FLOWER, MAX_NUM_PER_USER_PER_MIN*RESET_DELAY_MIN);
     LOGIN_D->tell_users(content);
 
     if (1 == call_out_flag)
