@@ -7,7 +7,7 @@ nosave int PROTO_SN_BLESS_INFO = 131401; // 祝福信息
 nosave int PROTO_SN_ADD_BLESS = 131402; // 添加祝福
 nosave int PROTO_SN_BLESS_LIST = 131403; // 请求祝福列表
 
-nosave int BLESS_NUM_PER_PAGE = 20;
+nosave float BLESS_NUM_PER_PAGE = 20.0;
 
 
 int count = 0;
@@ -25,7 +25,7 @@ void create()
         count = sizeof(blesses);
     else
         count = 0;
-    total_page = ceil(count / BLESS_NUM_PER_PAGE)+1;
+    total_page = ceil(count / BLESS_NUM_PER_PAGE);
     write(sprintf("载入祝福数据，总条目：%d\n", count));
 }
 
@@ -48,11 +48,13 @@ void add_bless(object user, string content)
     total_page = ceil(count / BLESS_NUM_PER_PAGE);
 
     save();
+
+    LOGIN_D->tell_users(bless_save_str);
 }
 
 void query_bless_info(object user)
 {
-    string info = sprintf("%d;%d\n", count, total_page);
+    string info = sprintf("%d;%d;%d\n", PROTO_SN_BLESS_INFO, count, total_page);
     tell_object(user, info);
 }
 
