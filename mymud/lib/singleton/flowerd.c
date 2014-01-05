@@ -9,8 +9,8 @@ nosave int RESET_DELAY_SEC = 300; // 重置可赠花数量的时间间隔（秒�
 
 
 // 协议头
-nosave int PROTO_HEAD_SENT_INFO = 111101; // 送花信息
-nosave int PROTO_HEAD_SEND_LIM_INFO = 111102; // 送花限额
+nosave int PROTO_HEAD_SENT_INFO = 111101; // 赠花信息
+nosave int PROTO_HEAD_SEND_LIM_INFO = 111102; // 赠花限额
 nosave int PROTO_HEAD_SEND = 111103; // 赠送鲜花
 
 
@@ -20,11 +20,11 @@ nosave mapping send_limit_info = ([]); // 可赠送鲜花数的限制信息，�
 
 int sent_total = 0; // 已赠送的总鲜花数
 
-string *user_sent_info_savedata = ({}); // 每个用户的累计送花数（保存数据）
-nosave mapping user_sent_info = ([]); // 每个用户的累计送花数
+string *user_sent_info_savedata = ({}); // 每个用户的累计赠花数（保存数据）
+nosave mapping user_sent_info = ([]); // 每个用户的累计赠花数
 nosave mapping user_sent_info_save_indices = ([]); // key: user_name, value: 对应用户的数据在user_sent_info_savedata中的索引+1
 
-nosave int total_remain_now = 0; // 当前全服送花剩余次数
+nosave int total_remain_now = 0; // 当前全服赠花剩余次数
 
 
 string query_save_file();
@@ -60,7 +60,7 @@ private void rebuild_user_sent_info()
         user_sent_info_save_indices[user_name] = idx+1;
     }
 
-    write(sprintf("载入送花数据，总条目：%d\n", savedata_len));
+    write(sprintf("载入赠花数据，总条目：%d\n", savedata_len));
 }
 
 private string gen_reset_protostr(int duration, int total)
@@ -93,6 +93,12 @@ private void query_sent_info(object user)
     int self_sent_num = 0;
     string user_name = user->get_name();
 
+    if (0 == user->is_logined())
+    {
+        MSG_D->notify_user(user, "未登录，不能请求赠花信息");
+        return;
+    }
+
     if (0 != user_sent_info[user_name])
     {
         self_sent_num = user_sent_info[user_name];
@@ -113,6 +119,12 @@ private void query_sent_lim_info(object user)
 
     int duration = 0;
     int cur_remain_num = 0;
+
+    if (0 == user->is_logined())
+    {
+        MSG_D->notify_user(user, "未登录，不能请求赠花限额信息");
+        return;
+    }
 
     cur_remain_num = send_limit_info[user];
     if (-1 == cur_remain_num)
@@ -143,10 +155,16 @@ private void send_flower(object user, int num)
     int savedata_idx = -1;
     string savedata = "";
 
+    if (0 == user->is_logined())
+    {
+        MSG_D->notify_user(user, "未登录，不能赠花");
+        return;
+    }
+
     remain_num = send_limit_info[user];
     if (-1 == remain_num || remain_num < num)
     {
-        tell_object(user, "您送花的数量已经超过当前时间段的上限了，开挂了吧？\n");
+        tell_object(user, "您赠花的数量已经超过当前时间段的上限了，开挂了吧？\n");
         return;
     }
 
@@ -180,7 +198,7 @@ private void send_flower(object user, int num)
     sent_info = sprintf("%d;%d;%d\n", PROTO_HEAD_SENT_INFO, user_sent_info[user_name], sent_total);
     tell_object(user, sent_info);
 
-    // 通知所有用户当前的送花总数
+    // 通知所有用户当前的赠花总数
     sent_total_info = sprintf("%d;%d;%d\n", PROTO_HEAD_SENT_INFO, -1, sent_total);
     LOGIN_D->tell_users(sent_total_info);
 }

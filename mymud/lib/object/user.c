@@ -59,6 +59,14 @@ string get_name()
 	return query("name");
 }
 
+int is_logined()
+{
+	int flag = 0;
+	if ("" != get_name())
+		flag = 1;
+	return flag;
+}
+
 void net_dead()
 {
 	tell_object(this_object(), "你已经下线\n");
