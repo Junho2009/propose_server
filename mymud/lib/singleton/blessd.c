@@ -15,7 +15,7 @@ int total_page = 0;
 string *blesses = ({});
 
 
-string query_save_file();
+string query_save_file(); // 要在create()中成功调用restore，就必须在create()之前先声明本函数
 void blesses_broadcast(object* bless_list);
 
 
@@ -97,11 +97,6 @@ void blesses_broadcast(object* bless_list)
     LOGIN_D->tell_users(broadcast_strlist);
 }
 
-string query_save_file()
-{
-    return COMMON_SAVE_PATH + "blesses";
-}
-
 int handle_protos(object user, string proto)
 {
     int sn = 0;
@@ -133,4 +128,9 @@ int handle_protos(object user, string proto)
     }
 
     return handleFlag;
+}
+
+string query_save_file()
+{
+    return COMMON_SAVE_PATH + "blesses";
 }

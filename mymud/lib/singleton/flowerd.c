@@ -4,7 +4,7 @@ inherit F_SAVE;
 
 // 按10天算，总数用int存储
 nosave float MAX_COUNT_PER_MIN = 100000; // 每分钟的总产出上限
-nosave float MAX_NUM_PER_USER_PER_MIN = 100; // 每个用户每分钟的产出上限
+nosave float MAX_NUM_PER_USER_PER_MIN = 1000; // 每个用户每分钟的产出上限
 nosave int RESET_DELAY_SEC = 300; // 重置可赠花数量的时间间隔（秒）
 
 
@@ -19,21 +19,46 @@ nosave mapping send_limit_info = ([]); // 可赠送鲜花数的限制信息，�
 
 
 int sent_total = 0; // 已赠送的总鲜花数
-mapping user_sent_info = ([]); // 每个用户的累计送花数
+
+string *user_sent_info_savedata = ({}); // 每个用户的累计送花数（保存数据）
+nosave mapping user_sent_info = ([]); // 每个用户的累计送花数
+nosave mapping user_sent_info_save_indices = ([]); // key: user_name, value: 对应用户的数据在user_sent_info_savedata中的索引+1
 
 
+string query_save_file();
+private void rebuild_user_sent_info();
 private void resetUsersNum(int call_out_flag);
-
 
 void create()
 {
-    restore();
+    if (0 != restore())
+        rebuild_user_sent_info();
 
     last_reset_time = time();
     call_out("resetUsersNum", RESET_DELAY_SEC, 1);
 }
 
 
+
+private void rebuild_user_sent_info()
+{
+    string user_name = "";
+    int sent_num = 0;
+
+    string savestr = "";
+    int idx = 0;
+    int savedata_len = sizeof(user_sent_info_savedata);
+
+    for (idx = 0; idx < savedata_len; ++idx)
+    {
+        savestr = user_sent_info_savedata[idx];
+        sscanf(savestr, "%s;%d", user_name, sent_num);
+        user_sent_info[user_name] = sent_num;
+        user_sent_info_save_indices[user_name] = idx+1;
+    }
+
+    write(sprintf("载入送花数据，总条目：%d\n", savedata_len));
+}
 
 private string gen_reset_protostr(int duration, int total)
 {
@@ -111,6 +136,8 @@ private void send_flower(object user, int num)
 
     int remain_num = 0;
     int user_name = user->get_name();
+    int savedata_idx = -1;
+    string savedata = "";
 
     remain_num = send_limit_info[user];
     if (-1 == remain_num || remain_num < num)
@@ -126,7 +153,22 @@ private void send_flower(object user, int num)
     user_sent_info[user_name] = user_sent_info[user_name] + num;
     sent_total += num;
 
-    sent_info = sprintf("%d;%d\n", PROTO_HEAD_SEND, user_sent_info[user_name]);
+    savedata = sprintf("%s;%d", user_name, user_sent_info[user_name]);
+    if (0 == user_sent_info_save_indices[user_name])
+    {
+        user_sent_info_savedata += ({savedata});
+        user_sent_info_save_indices[user_name] = sizeof(user_sent_info_savedata);
+    }
+    else
+    {
+        savedata_idx = user_sent_info_save_indices[user_name] - 1;
+        if (savedata_idx >= 0)
+            user_sent_info_savedata[savedata_idx] = savedata;
+    }
+
+    save();
+
+    sent_info = sprintf("%d;%d;%d\n", PROTO_HEAD_SENT_INFO, user_sent_info[user_name], sent_total);
     tell_object(user, sent_info);
 
     // 通知所有用户当前的送花总数
@@ -165,4 +207,9 @@ int handle_protos(object user, string proto)
     }
 
     return handleFlag;
+}
+
+string query_save_file()
+{
+    return COMMON_SAVE_PATH + "flowers";
 }
