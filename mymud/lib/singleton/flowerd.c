@@ -4,7 +4,7 @@ inherit F_SAVE;
 
 // 按10天算，总数用int存储
 nosave float MAX_COUNT_PER_MIN = 100000; // 每分钟的总产出上限
-nosave float MAX_NUM_PER_USER_PER_MIN = 1000; // 每个用户每分钟的产出上限
+nosave float MAX_NUM_PER_USER_PER_MIN = 500; // 每个用户每分钟的产出上限
 nosave int RESET_DELAY_SEC = 300; // 重置可赠花数量的时间间隔（秒）
 
 
@@ -24,6 +24,8 @@ string *user_sent_info_savedata = ({}); // 每个用户的累计送花数（保�
 nosave mapping user_sent_info = ([]); // 每个用户的累计送花数
 nosave mapping user_sent_info_save_indices = ([]); // key: user_name, value: 对应用户的数据在user_sent_info_savedata中的索引+1
 
+nosave int total_remain_now = 0; // 当前全服送花剩余次数
+
 
 string query_save_file();
 private void rebuild_user_sent_info();
@@ -35,6 +37,7 @@ void create()
         rebuild_user_sent_info();
 
     last_reset_time = time();
+    total_remain_now = RESET_DELAY_SEC / 60.0 * MAX_COUNT_PER_MIN;
     call_out("resetUsersNum", RESET_DELAY_SEC, 1);
 }
 
@@ -72,6 +75,7 @@ private void resetUsersNum(int call_out_flag)
     int total = RESET_DELAY_SEC / 60.0 * MAX_NUM_PER_USER_PER_MIN;
 
     last_reset_time = time();
+    total_remain_now = RESET_DELAY_SEC / 60.0 * MAX_COUNT_PER_MIN;
 
     content = gen_reset_protostr(RESET_DELAY_SEC, total);
     LOGIN_D->tell_users(content);
@@ -145,6 +149,11 @@ private void send_flower(object user, int num)
         tell_object(user, "您送花的数量已经超过当前时间段的上限了，开挂了吧？\n");
         return;
     }
+
+    if (total_remain_now < num)
+        return; // 已超出本时间段内的本服产出上限
+
+    total_remain_now -= num;
 
     send_limit_info[user] = remain_num - num;
     if (0 == send_limit_info[user])
