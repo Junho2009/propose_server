@@ -31,16 +31,14 @@ nosave int total_remain_now = 0; // 当前全服赠花剩余次数
 
 string query_save_file();
 private void rebuild_user_sent_info();
-private void resetUsersNum(int call_out_flag);
+private void reset_users_num(int call_out_flag);
 
 void create()
 {
     if (0 != restore())
         rebuild_user_sent_info();
 
-    last_reset_time = time();
-    total_remain_now = RESET_DELAY_SEC / 60.0 * MAX_COUNT_PER_MIN;
-    call_out("resetUsersNum", RESET_DELAY_SEC, 1);
+    call_out("start_resetnum_looptask", 10);
 }
 
 
@@ -71,7 +69,13 @@ private string gen_reset_protostr(int duration, int total)
     return str;
 }
 
-private void resetUsersNum(int call_out_flag)
+private void start_resetnum_looptask()
+{
+    reset_users_num(0);
+    call_out("reset_users_num", RESET_DELAY_SEC, 1);
+}
+
+private void reset_users_num(int call_out_flag)
 {
     string content = "";
     int total = RESET_DELAY_SEC / 60.0 * MAX_NUM_PER_USER_PER_MIN;
@@ -83,7 +87,10 @@ private void resetUsersNum(int call_out_flag)
     LOGIN_D->tell_users(content);
 
     if (1 == call_out_flag)
-        call_out("resetUsersNum", RESET_DELAY_SEC, 1);
+    {
+        remove_call_out("reset_users_num");
+        call_out("reset_users_num", RESET_DELAY_SEC, 1);
+    }
 }
 
 

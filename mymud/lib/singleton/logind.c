@@ -14,7 +14,8 @@ void tell_users(string str)
 
 	foreach(value in value_list)
 	{
-		tell_object(value, str);
+        if (0 != value)
+		  tell_object(value, str);
 	}
 }
 
